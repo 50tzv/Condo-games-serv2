@@ -12,7 +12,7 @@
       <h2 id="promo-video-heading" class="promo-video-heading">Featured Promo</h2>
       <div class="promo-video-frame">
         <video controls playsinline preload="metadata">
-          <source src="/manus-storage/promo-video_68355625.mp4" type="video/mp4">
+          <source src="/promo-video.mp4" type="video/mp4">
           Your browser does not support HTML5 video.
         </video>
       </div>
