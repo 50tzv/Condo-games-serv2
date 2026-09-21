@@ -1,0 +1,33 @@
+#promo-video-section {
+  width: min(1152px, calc(100% - 3rem));
+  margin: 0 auto 4rem;
+  padding: 1.5rem;
+  border: 1px solid rgba(37, 99, 235, 0.24);
+  border-radius: 1rem;
+  background: linear-gradient(135deg, rgba(10, 18, 38, 0.96), rgba(5, 10, 24, 0.96));
+  box-shadow: 0 24px 70px rgba(0, 0, 0, 0.32), inset 0 1px 0 rgba(255, 255, 255, 0.04);
+}
+#promo-video-section .promo-video-heading {
+  margin: 0 0 1rem;
+  color: #f8fafc;
+  font: 800 1.25rem/1.3 Inter, system-ui, sans-serif;
+}
+#promo-video-section .promo-video-frame {
+  overflow: hidden;
+  border-radius: 0.75rem;
+  background: #020617;
+  aspect-ratio: 16 / 9;
+}
+#promo-video-section video {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+@media (max-width: 640px) {
+  #promo-video-section {
+    width: calc(100% - 2rem);
+    margin-bottom: 2rem;
+    padding: 1rem;
+  }
+}
